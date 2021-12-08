@@ -6,21 +6,24 @@ header {
 }
 
 main ul {
-  width: 800px;
+  width: 1200px;
   margin: 0px auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px 20px;
 }
 
 main li {
-  display: flex;
   background: aliceblue;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0, 2);
   border-radius: 6px;
   overflow: hidden;
+  display: flex;
 }
 
 main li img {
   width: 300px;
-  height: 280px;
+  height: 313.8px;
   object-fit: cover;
 }
 
@@ -33,6 +36,7 @@ main li img {
   padding: 6px;
   border-radius: 5px;
   color: skyblue;
+  text-align: right;
 }
 
 .actions a:hover {
@@ -44,4 +48,8 @@ main li img {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+li:nth-of-type(3){
+  grid-column: 1 / span 2;;
 }
