@@ -1,6 +1,6 @@
 #hero {
 	height: 800px;
-	background-image: url("images/places/ocean.jpg");
+	background-image: url("./images/places/ocean.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -8,7 +8,7 @@
 #hero-content {
 	width: 900px;
 	background-color: rgba(51, 47, 47, 0.8);
-	box-shadow: 2px 4px 8px rgb(68, 67, 67);
+	box-shadow: 2px 4px 8px rgb(65, 62, 62);
 	border-radius: 8px;
 	text-align: center;
 	padding: 50px 0px;
@@ -20,7 +20,7 @@
 #hero-content h1 {
 	color: white;
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 48px;
 	font-family: "Raleway", sans-serif;
 }
 
@@ -37,8 +37,8 @@
 	background-color: rgb(255, 251, 0);
 	padding: 12px 24px;
 	color: black;
-	font-size: 24px;
-	border-radius: 15px;
+	font-size: 22px;
+	border-radius: 12px;
 	font-weight: bold;
 	box-shadow: 2px 4px 8px rgb(68, 67, 67);
 }
