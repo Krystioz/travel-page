@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
-  font-size: calc(.3rem + 1vw);
+  font-size: .75rem;
 }
 header {
   position: static;
@@ -68,4 +68,10 @@ main li img {
 
 li:nth-of-type(3) {
   grid-column: 1 / span 2;
+}
+
+@media (min-width: 1200px){
+  body {
+    font-size: .9rem;
+  }
 }
